@@ -20,11 +20,13 @@ setuptools.setup(
         'qgis-stubs': ['py.typed', '*.pyi'],
         'qgis-stubs.core': ['*.pyi'],
         'qgis-stubs.processing': ['*.pyi'],
+        'qgis-stubs.PyQt': ['*.pyi'],
     },
     packages=[
         'qgis-stubs',
         'qgis-stubs.core',
         'qgis-stubs.processing',
+        'qgis-stubs.PyQt',
     ],
     classifiers=[
         'Development Status :: 3 - Alpha',

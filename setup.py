@@ -17,7 +17,7 @@ setuptools.setup(
     long_description_content_type='text/markdown',
     python_requires='>= 3.6',
     package_data={
-        'qgis-stubs': ['*.pyi'],
+        'qgis-stubs': ['py.typed', '*.pyi'],
         'qgis-stubs.core': ['*.pyi'],
         'qgis-stubs.processing': ['*.pyi'],
     },

@@ -9,4 +9,4 @@ __all__ = [
     "PyQt",
 ]
 
-__version__ = '0.2.0post1'
+__version__ = '0.3.0'
